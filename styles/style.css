@@ -41,7 +41,10 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 10px;
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.534);
+
+    transition: width .1s, height .1s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image {
