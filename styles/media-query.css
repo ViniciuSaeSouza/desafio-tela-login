@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* versão para celular está com problema ao girar a tela em modo paisagem */
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   body {
     background-image: linear-gradient(to top, var(--verde), var(--lilas));
