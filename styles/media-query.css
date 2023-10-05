@@ -7,7 +7,8 @@
     background-image: linear-gradient(to top, var(--verde), var(--lilas));
   }
   section#login {
-    width: 80vw;
+    width: 70vw;
+    height: 330px;
   }
   section#login > div#image {
     float: left;
@@ -21,6 +22,7 @@
   }
   #form > p {
     font-size: 1em;
+    margin: 15px 0px;
   }
 }
 
@@ -29,7 +31,8 @@
     background-image: linear-gradient(to top, var(--verde), var(--lilas));
   }
   section#login {
-    width: 80vw;
+    width: 60vw;
+    height: 360px;
   }
   section#login > div#image {
     float: right;
@@ -46,5 +49,6 @@
 
   div#form > p {
     font-size: 1.2em;
+    margin: 20px 0px;
   }
 }
