@@ -76,7 +76,8 @@ div.campo {
   background-color: var(--lilas);
   width: 100%;
   height: 40px;
-  border-radius: 5px;
+  border: 2px solid var(--lilas);
+  border-radius: 7px;
   margin: 5px 0px;
 }
 
@@ -86,7 +87,28 @@ div.campo > label {
 
 div.campo > span {
   color: white;
-  translate: 0px 6px;
+  /* background-color: black; */
+  font-size: 2em;
+  height: 100%;
+  width: 40px;
+  padding: 5px;
+  transform: translateY(-3px);
+}
+
+div.campo > input {
+  background-color: var(--verde-claro);
+  font-size: 1em;
+  width: calc(100% - 44.9px);
+  transform: translateY(-12px);
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+div.campo > input:focus-within {
+  outline: none;
+  background-color: white;
 }
 
 input[type=submit] {
