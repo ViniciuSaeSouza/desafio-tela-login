@@ -8,6 +8,8 @@
 :root {
   --lilas: #5f2c82;
   --verde: #49a09d;
+  --verde-claro: #62d6d2;
+  --verde-escuro: #2d6562;
 }
 
 * {
@@ -69,8 +71,61 @@ section#login > div#form {
   font-size: 0.8em;
 }
 
-div.finalize {
-  margin: 15px 0px 5px;
-  
+div.campo {
+  display: block;
+  background-color: var(--lilas);
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px 0px;
 }
 
+div.campo > label {
+  display: none;
+}
+
+div.campo > span {
+  color: white;
+  translate: 0px 6px;
+}
+
+input[type=submit] {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  background-color: var(--verde);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: var(--verde-escuro);
+}
+
+a.botao {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  padding-top: 7px;
+  color: var(--verde-escuro);
+  background-color: whitesmoke;
+  border: 1px solid var(--verde-escuro);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a.botao > i {
+  font-size: 1.1rem;
+  translate: 4px 4px;
+}
+
+a.botao:hover {
+  background-color: var(--verde-claro);
+  color: white;
+}
