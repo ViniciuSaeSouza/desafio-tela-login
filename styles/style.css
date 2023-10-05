@@ -99,11 +99,12 @@ div.campo > input {
   background-color: var(--verde-claro);
   font-size: 1em;
   width: calc(100% - 44.9px);
-  transform: translateY(-12px);
+  
   height: 100%;
   border: none;
   border-radius: 5px;
   padding: 3px;
+  transform: translateY(-12px);
 }
 
 div.campo > input:focus-within {
